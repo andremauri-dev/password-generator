@@ -1,56 +1,56 @@
-# 🔐 Password Generator
+# Password Generator
 
-My first Python project created while learning Python.
-
-## About
-
-This program generates random passwords.
-
-The user can choose the password length and decide whether to include numbers, uppercase letters, and special characters.
-
-The program also validates the password length input to prevent invalid values.
+A simple password generator built with Python. This project allows users to create random passwords with customizable options while helping me practice Python fundamentals.
 
 ## Features
 
-- Generate random passwords
-- Choose the password length
-- Validate user input for password length
-- Include numbers (optional)
-- Include uppercase letters (optional)
-- Include special characters (optional)
-
-## Technologies
-
-- Python 3
-- Python `random` module
-
-## Current Status
-
-🚧 This project is under development and new features are being added as I continue learning Python.
-
-## Future Improvements
-
-- Replace `random` with `secrets` for more secure password generation
-- Improve validation for all user inputs (`y/n`)
-- Allow users to generate multiple passwords at once
-- Copy the generated password to the clipboard
-- Add a password strength indicator
+* Choose the password length.
+* Option to include numbers.
+* Option to include uppercase letters.
+* Option to include special characters.
+* Generate a random password.
+* Welcome screen organized in a dedicated function.
+* Password generation handled by a reusable function.
 
 ## What I Learned
 
-While building this project, I practiced:
+This project helped me practice:
 
-- Variables
-- User input
-- Conditional statements (`if`)
-- `for` loops
-- `while` loops
-- Exception handling (`try` / `except`)
-- String manipulation
-- Random password generation
-- Writing clean and readable code
-- Using Git and GitHub
+* Functions (`def`)
+* Function parameters
+* Returning values with `return`
+* `while` loops
+* `try` and `except`
+* User input with `input()`
+* Conditional statements (`if`)
+* `for` loops
+* String manipulation
+* Random password generation with `random.choice()`
+
+## Technologies
+
+* Python 3
+
+## How to Run
+
+1. Clone this repository.
+2. Open the project folder.
+3. Run:
+
+```bash
+python main.py
+```
+
+## Future Improvements
+
+* Validate all `y/n` user inputs.
+* Refactor the remaining code into reusable functions.
+* Use the `secrets` module instead of `random` for stronger passwords.
+* Guarantee at least one character from each selected category.
+* Allow users to generate multiple passwords in one execution.
 
 ## Author
 
-**Andre Mauri**
+Andre Mauri
+
+GitHub: https://github.com/andremauri-dev
